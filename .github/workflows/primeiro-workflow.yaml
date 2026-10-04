@@ -1,4 +1,4 @@
-name: Devops Workflow
+name: Mdc Workflow
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout do Código
-        uses: actions/checkout@v2 # Action para clonar o repositório
+        uses: actions/checkout@v4 # Action para clonar o repositório
 
       - name: Mostrar Mensagem
-        run: echo "Olá Mundo dos Devops, MDC, GitHub Actions!" # Comando a ser executado
+        run: echo "Olá MUndo dos Devops, MDC, GitHub Actions!" # Comando a ser executado
