@@ -39,7 +39,7 @@ jobs:
       runs-on: ubuntu-latest
 
       steps:
-        -name: Deploy Hanol
+        - name: Deploy Hanol
          run: echo "Executando deploy no ambiente de Homolocacao"
 
     producao:
